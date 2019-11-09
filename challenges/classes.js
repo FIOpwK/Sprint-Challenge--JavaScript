@@ -1,6 +1,6 @@
 // 1. Copy and paste your prototype in here and refactor into class syntax.
 
-class CubeMaker {
+class CubeMaker extends CuboidMaker {
 	constructor(cuboid) {
 	this.length = cuboid.length;
 	this.width = cuboid.width;
