@@ -38,10 +38,10 @@ a `function` can be declared as a statement or anonymously. a `method` can be de
 closure is essentially the scope of an object, function or statement of code.
 
 4. Describe the four rules of the 'this' keyword.
-1: Implicit Binding
-2: Explicit Binding
-3: New Binding
-4: Window/Object Binding
+1: Window/Global Object Binding: when `this` refers to the window or console object
+2: Implicit Binding: when a function is called  using dot or bracket notation.
+3: New Binding: when a constructor function is used to create a new object instance.
+4: Explicit Binding: when using `call` or `apply` methods, this is explicitedly defined. 
 
 5. Why do we need super() in an extended class?
 We need and use super() to access the parent class whenever extends is used.
