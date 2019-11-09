@@ -74,6 +74,8 @@ let contact = contactInfo.join(' ').toString();
 console.log(contactInfo);
 console.log(contact);
 
+
+//Unclear why this code isn't passing in console
 /* Request 3: Find out how many universities have the string "Uni" included in their name. Create a new array called unisWithUni that contains them all. This will be an array of objects. Log the result. */
 const unisWithUni = [];
 graduates.forEach(uniwith => {if (uniwith.university === 'University') {return unisWithUni.push(uniwith.university)}})
