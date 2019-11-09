@@ -30,7 +30,7 @@ console.log(consume("Mary", "Poppins", greeting)); // Hello Mary Poppins, nice t
 
 // Explain in your own words why nestedfunction can access the variable internal.
 
-// Explanation: 
+// Explanation: In closures, the nested function inherets the scope if its parent, so what is in scope if outter function is in scope if inner function.
 
 
 const external = "I'm outside the function";
