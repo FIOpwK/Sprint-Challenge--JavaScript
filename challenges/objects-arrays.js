@@ -106,7 +106,7 @@ The zoos want to display both the scientific name and the animal name in front o
 
 */
 const displayNames = [];
-zooAnimals.forEach(name => {return (displayNames.push(`Name: ${name.animal_name}, Scientific: ${name.scientific_name}.`))})
+zooAnimals.forEach(name => {(displayNames.push(`Name: ${name.animal_name}, Scientific: ${name.scientific_name}.`))})
 console.log(displayNames);
 
 /* Request 2: .map()
@@ -125,7 +125,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 
 */
 
-// Unclear why this code isn't passing in console.
+// Unclear why this code isn't passing in console. Should return 3
 const lowPopulationAnimals = [];
 zooAnimals.filter(pop => { if (pop.population < 5) {return lowCaseAnimalNames.push(pop.population)}})
 console.log(lowPopulationAnimals);
