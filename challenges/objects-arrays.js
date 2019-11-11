@@ -137,6 +137,7 @@ The zoos need to know their total animal population across the United States. Fi
 */
 
 // Unclear why this code isn't passing in console.
+// Should return 56.
 const populationTotal = 0;
 zooAnimals.reduce((total, pop) => {return total += pop.population}, 0);
 
