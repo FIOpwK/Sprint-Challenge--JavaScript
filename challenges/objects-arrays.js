@@ -126,8 +126,7 @@ The zoos are concerned about animals with a lower population count. Using filter
 */
 
 // Unclear why this code isn't passing in console. Should return 3
-const lowPopulationAnimals = [];
-zooAnimals.filter(pop => { if (pop.population < 5) {return lowCaseAnimalNames.push(pop.population)}})
+const lowPopulationAnimals = zooAnimals.filter(pop => { if (pop.population < 5) {return lowCaseAnimalNames.push(pop.population)}})
 console.log(lowPopulationAnimals);
 
 /* Request 4: .reduce() 
@@ -137,7 +136,7 @@ The zoos need to know their total animal population across the United States. Fi
 */
 
 // Unclear why this code isn't passing in console.
-// Should return 54
+// Should return 56
 const populationTotal = zooAnimals.reduce((total, pop) => {return total + pop.population}, 0);
 
 console.log(populationTotal);
